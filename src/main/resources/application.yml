@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/testuseUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: jianbin.mybatistest.pojo
+  mapper-locations: classpath:generator/*.xml
+
+logging:
+  file:
+    name: log/log.log
+  level:
+    root: info
