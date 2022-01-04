@@ -13782,3 +13782,6 @@ Consider defining a bean of type 'jianbin.mybatistest.dao.UserDao' in your confi
 2022-01-04 17:38:36.517  INFO 8967 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2022-01-04 17:38:36.542  INFO 8967 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2022-01-04 17:38:36.645  INFO 8967 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-04 18:33:22.257  WARN 8967 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m15s399ms).
+2022-01-04 19:10:54.892  WARN 8967 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m2s622ms).
+2022-01-04 20:54:16.991  WARN 8967 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m41s353ms).
