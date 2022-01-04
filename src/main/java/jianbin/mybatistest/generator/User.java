@@ -1,5 +1,7 @@
 package jianbin.mybatistest.generator;
 
+import org.apache.ibatis.annotations.Mapper;
+
 import java.io.Serializable;
 
 /**

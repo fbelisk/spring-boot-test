@@ -3,6 +3,7 @@ package jianbin.mybatistest.dao;
 import java.util.List;
 import jianbin.mybatistest.generator.User;
 import jianbin.mybatistest.generator.UserExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserDao {
